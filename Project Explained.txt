@@ -1,0 +1,21 @@
+Our project aims to encourage the private adoption of solar energy by providing a set of tools to facilitate the purchase and installation of solar panels. The aim was to develop an algorithm which could predict the solar potential of a roof based on the location of the building,area of the rooftop and cost per unit of electricity in that area. 
+
+
+Assumptions in Algorithm
+1.In India generally the efficiency of solar panel is between 13 % to 21% which gradually depreciates over the years.Efficiency(t)=efficiency(initial) * (1-exp(-kt)).So we found out that the average efficiency over 15 years is around 15%, so we have taken this value to calculate the energy output of our solar panel.
+2.We have assumed that on an average  60% the available rooftop area is covered with the solar panel
+3.The cost of solar panel of rating 200W is considered.
+
+
+Outcome
+The web app is personalized to give ?he result which includes:
+
+1.Installation cost of the solar panels including their maintenance cost
+
+2The profit obtained by user after installation.
+
+3.The years after which the user will get the return from the investment.
+
+4.The effective tilt angle for panel
+
+
